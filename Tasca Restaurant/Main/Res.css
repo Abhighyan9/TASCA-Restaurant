@@ -66,6 +66,17 @@ body{
     max-width: 100%;
     height: auto;
 }
+
+.visually-hidden{
+    size: 35px;
+    font-weight: 400;
+    color:#fff;
+}
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
 .col-md-4 {
     width: 33.33333333%;
 }
